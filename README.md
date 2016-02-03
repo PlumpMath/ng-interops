@@ -1,9 +1,9 @@
 # ng-interops
-Sample of how to call into angular from non angular and vice versa
+Sample of how to call into angular from non-angular and vice versa
 
 ##Key Takeaways
 
-Interops points when calling into angular land:
+Interoperability points when calling into angular land:
 - controller
 - service
 - etc.
