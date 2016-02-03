@@ -1,0 +1,26 @@
+{
+  "name": "ng-interops",
+  "version": "1.0.0",
+  "description": "Sample of how to call into angular from non angular and vice versa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchandra74/ng-interops.git"
+  },
+  "keywords": [
+    "angular",
+    "interops"
+  ],
+  "author": "Jimmy Chandra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jchandra74/ng-interops/issues"
+  },
+  "homepage": "https://github.com/jchandra74/ng-interops#readme",
+  "devDependencies": {
+    "live-server": "^0.9.1"
+  }
+}

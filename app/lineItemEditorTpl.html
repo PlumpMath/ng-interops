@@ -1,0 +1,43 @@
+<table id="lineEditor" class="table table-condensed">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Quantity</th>
+      <th>UOM</th>
+      <th>Unit Price</th>
+      <th>Line Total</th>
+    </tr>
+  </thead>  
+  <tbody>
+    <tr ng-repeat="line in vm.lineItems track by $index">
+      <td class="col-sm-5">
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="line.description">
+        </div>
+      </td>
+      <td class="col-sm-1">
+        <div class="form-group">
+          <input type="text" class="form-control text-right" ng-model="line.qty">
+        </div>
+      </td>
+      <td class="col-sm-1">
+        <div class="form-group">
+          <input type="text" class="form-control" ng-model="line.uom">
+        </div>
+      </td>
+      <td  class="col-sm-2">
+        <div class="form-group">
+          <input type="text" class="form-control text-right" ng-model="line.unitPrice">
+        </div>
+      </td>
+      <td  class="col-sm-2">
+        <div class="form-group">
+          <input type="text" class="form-control text-right" ng-model="line.total">
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" class="btn btn-danger" ng-click="vm.showSupplier()">Reach out to ko land</button>
+
