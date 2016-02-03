@@ -45,3 +45,7 @@ and
 //somewhere inside angular...
 window.viewBag.something.doSomething();
 ```
+
+##Working Demo
+
+Click [here](http://embed.plnkr.co/29aQvr/) for working demo.
